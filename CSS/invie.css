@@ -1,0 +1,229 @@
+
+
+    /*font-family: 'Do Hyeon', sans-serif;
+font-family: 'Lobster', cursive;
+    font-family: 'Indie Flower', cursive;*/
+/**{
+	width: tamaño;
+	height: tamaño;
+	padding: top right bottom left;
+	padding-top: arriba;
+	padding-left: izquierda;
+	padding-right: derecha;
+	padding-bottom: abajo;
+	border: 2px solid red;	
+	padding: parte interna;
+	margin: parte externa;
+
+}*/
+body {
+	font-family: 'Do Hyeon', sans-serif;
+	margin: 0;
+}
+
+.button{
+	border-radius: 20px;
+	border: none;
+	color: white;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+background: #ff3019; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+
+
+}
+.titulo{
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 80px;
+}
+
+.titulo-a{
+	font-size: 24px;
+	font-family: 'Indie Flower', cursive;
+	margin-top: 0;
+}
+
+.titulo-b{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.guitarras{
+
+	font-family: 'Indie Flower', cursive;
+}
+.guitarras h2{
+	font-size: 35px;
+}
+
+.ejempla{
+	background: #cccccc; 
+}
+.portada{
+	background-image: url("../IMAGES/photoo.png");
+	background-size: cover;
+	color: white;
+	padding: 20px;
+	width: 1325px;
+	height: 495px;
+}
+
+.portada button{
+	margin-bottom: 70px;
+	margin-top: 80px;
+	border-radius: 8px;
+}
+
+.portada h1{
+	color: red;
+	margin-top: 0;
+	margin-right: 50;
+	width: 1000px;
+}
+
+.portada h3{
+	color: #bebcbc;
+	margin-top: 125px;
+}
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu a{
+	color: #040769;
+	text-decoration: none;
+}
+.menu ul{
+	position: relative;
+	left: 200px;
+}
+ol{
+	font-family: 'Indie Flower', cursive;
+	
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.menu li:after{
+	content: "↩";
+	font-size: 25px;
+	color: #040769;
+}
+.logotipo{
+	display: inline-block;
+}
+
+.logotiporojo{
+	display: inline-block;
+	margin: 3px 40px 0px 40px;
+}
+
+.contenedor{
+width: 800px;
+	margin: auto;
+}
+
+.guitarra{
+	margin: 10px 10px 40px;
+	padding: 10px;
+	/*overflow: hidden;*/
+	border: 1px solid #732cd8;
+	top: 0px;
+}
+.derecha{
+	float: right;
+}
+
+.izquierda{
+	float: left;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 450px;
+}
+
+.header{
+	position: relative;
+
+}
+
+html{
+background: #636363 ;
+}
+
+.footer{
+	background: #cccccc;
+}
+
+.contacto{
+	display: flex;
+	width: 260px;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 200px;
+}
+
+.contacto img{
+	display: block;
+}
+
+.contacto strong{
+	display: block;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacto .teil{
+	text-decoration: none;
+	margin: 10px 12px 10px 0;
+}
+
+.contacto a{
+	color: red;
+}
+
+
+.formulario{
+	display: flex;
+	width: 400px;
+	padding: 20px 10px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+ .col2{
+ 	align-items: flex-start;
+ }
+.intereses label	{
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses	{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
