@@ -166,6 +166,10 @@ width: 800px;
 	background-image: url("../IMAGES/rott.jpg");
 }
 
+.logotipo:hover {
+  transform: scale(2);
+}
+
 .contacto{
 	display: flex;
 	width: 260px;
