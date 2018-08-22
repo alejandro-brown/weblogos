@@ -202,6 +202,8 @@ width: 800px;
 
 
 .formulario{
+	position: relative;
+	left: 30px;
 	display: flex;
 	width: 400px;
 	padding: 20px 10px;
